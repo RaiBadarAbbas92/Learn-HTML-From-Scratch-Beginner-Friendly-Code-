@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+</head>
+<body>
+    <!-- Table Section -->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>30</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Mary</td>
+            <td>25</td>
+            <td>Canada</td>
+        </tr>
+    </table>
+
+    <!-- Form Section -->
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Embedding YouTube Video -->
+    <video width="320" height="240" controls>
+        <source src="https://www.youtube.com/embed/VIDEO_ID" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
